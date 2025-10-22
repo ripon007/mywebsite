@@ -30,6 +30,7 @@
     'username' => 'ripon.tsc05@gmail.com',
     'password' => 'rgus nniq bhyh hrws',
     'port' => '587'
+    'encryption' => 'tls'
   );
   
 
@@ -39,5 +40,6 @@
 
   echo $contact->send();
 ?>
+
 
 
